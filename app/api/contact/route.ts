@@ -113,14 +113,21 @@ ${message}
 
     // Handle Resend quota or send error gracefully
     if (result?.error) {
-      if (result.error.code === "quota_exceeded") {
+      // Defensive: check if error is object and has 'code'
+      if (
+        typeof result.error === "object" &&
+        result.error !== null &&
+        "code" in result.error &&
+        result.error.code === "quota_exceeded"
+      ) {
         return NextResponse.json(
           { error: "Email quota exceeded. Please contact us another way." },
           { status: 429 }
         );
       }
+      // Fallback: show message or error as string
       return NextResponse.json(
-        { error: result.error.message },
+        { error: result.error.message || String(result.error) },
         { status: 500 }
       );
     }
