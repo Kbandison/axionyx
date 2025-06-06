@@ -14,10 +14,23 @@ const projectTypes = [
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // TODO: Wire up to email service or serverless function
-    setSubmitted(true);
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (res.ok) {
+      setSubmitted(true);
+      form.reset();
+    } else {
+      // Optionally show error
+      alert("Sorry, there was a problem. Please try again.");
+    }
   };
 
   return (
