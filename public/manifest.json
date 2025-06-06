@@ -1,0 +1,41 @@
+{
+  "name": "Axionyx",
+  "short_name": "Axionyx",
+  "description": "Premium future-forward agency. Digital leverage, created beyond the launch point.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090B",
+  "theme_color": "#FF3B30",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/Axionyx-screenshot.png",
+      "sizes": "2559x1450",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/Axionyx-screenshot.png",
+      "sizes": "2559x1450",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "any",
+  "scope": "/"
+}
