@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative py-20 md:py-32 flex flex-col items-center bg-base overflow-x-clip"
+      className="relative py-20 md:py-32 flex flex-col items-center overflow-x-clip"
     >
       <motion.div
         className="absolute left-6 top-10 bottom-10 w-px bg-vermillion origin-top z-0 hidden md:block"
