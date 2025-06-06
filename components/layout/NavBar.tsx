@@ -42,8 +42,8 @@ export default function NavBar() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-40 bg-base/80 backdrop-blur supports-[backdrop-filter]:bg-base/70 border-b border-white/10 transition-shadow">
-      <nav className="max-w-7xl mx-auto flex items-center justify-between py-3 px-4 md:px-8">
+    <header className="fixed top-0 left-0 w-full z-50 bg-base/80 backdrop-blur supports-[backdrop-filter]:bg-base/70 border-b border-white/10 transition-shadow">
+      <nav className="max-w-7xl mx-auto flex items-center justify-between z-50 py-3 px-4 md:px-8">
         {/* Logo / Wordmark */}
         <a
           href="#hero"
