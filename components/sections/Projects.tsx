@@ -3,7 +3,6 @@ import { useState, useRef } from "react";
 import { projects } from "@/data";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import GridBG from "@/components/ui/GridBG";
 import ProjectModal from "@/components/ui/ProjectModal";
 
 const container = {
@@ -36,7 +35,6 @@ export default function Projects() {
       id="work"
       className="relative py-20 md:py-32 flex flex-col items-center overflow-x-clip"
     >
-      {/* <GridBG /> */}
       <div className="max-w-2xl w-full mx-auto text-center mb-16 px-4">
         <h2 className="text-vermillion font-orbitron text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
           Legacy Projects
