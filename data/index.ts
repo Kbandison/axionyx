@@ -101,13 +101,13 @@ export const projects = [
     url: "https://galon-consulting.vercel.app/",
   },
   {
-    title: "Lumina Brand Refresh",
+    title: "Allset Repair",
     description:
-      "Reimagined Lumina's brand and site for Gen Z, driving a 40% lift in engagement in the first quarter.",
-    images: ["/projects/lumina-1.jpg", "/projects/lumina-2.jpg"],
-    tag: "Branding / Marketing",
-    stack: ["React", "Figma", "Prismic"],
-    url: "#",
+      "Delivering high-quality repair services that extend the life of your appliances.",
+    images: ["/Screenshot 2025-05-22 095023.png"],
+    tag: "Rapair",
+    stack: ["Next.js", "Tailwind", "Vercel"],
+    url: "https://molli-repair.vercel.app/",
   },
   {
     title: "AxioVault Security",
