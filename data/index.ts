@@ -92,17 +92,13 @@ export const testimonials = [
 
 export const projects = [
   {
-    title: "Orion SaaS Launch",
+    title: "Galon Consulting",
     description:
-      "Scaled a fast-growth SaaS from MVP to 100k+ users with a blazing-fast, intuitive UI and API integrations.",
-    images: [
-      "/projects/orion-1.jpg",
-      "/projects/orion-2.jpg",
-      "/projects/orion-3.jpg",
-    ],
-    tag: "SaaS / Platform",
-    stack: ["Next.js", "Tailwind", "Stripe", "Vercel"],
-    url: "#",
+      "Galon Consulting Services, LLC provides world-class solutions in billing, compliance, and patient care for practices of all sizes.",
+    images: ["/Screenshot 2025-06-08 051651.png"],
+    tag: "Platform",
+    stack: ["Next.js", "Tailwind", "Vercel"],
+    url: "galon-consulting.vercel.app",
   },
   {
     title: "Lumina Brand Refresh",
