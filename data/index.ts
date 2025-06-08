@@ -98,7 +98,7 @@ export const projects = [
     images: ["/Screenshot 2025-06-08 051651.png"],
     tag: "Platform",
     stack: ["Next.js", "Tailwind", "Vercel"],
-    url: "galon-consulting.vercel.app",
+    url: "https://galon-consulting.vercel.app/",
   },
   {
     title: "Lumina Brand Refresh",
