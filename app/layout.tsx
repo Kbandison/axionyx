@@ -2,6 +2,7 @@ import GridBackground from "@/components/GridBackground";
 import "./globals.css";
 import { Inter, Sora, Orbitron } from "next/font/google";
 import type { ReactNode } from "react";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -96,6 +97,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className="bg-base text-white ...">
+        <Analytics />
         <GridBackground />
         <div className="relative z-10">{children}</div>
       </body>
