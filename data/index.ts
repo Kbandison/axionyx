@@ -116,7 +116,12 @@ export const projects = [
   {
     title: "Cake Haven",
     description: "Your local cake enthusi-ist shop!",
-    images: ["/Screenshot 2025-06-19 133941.png"],
+    images: [
+      "/Screenshot 2025-06-19 133941.png",
+      "/Screenshot 2025-06-19 134235.png",
+      "/Screenshot 2025-06-19 134255.png",
+      "/Screenshot 2025-06-19 134320.png",
+    ],
     tag: "E-commerce / UX",
     stack: ["Next.js", "Tailwind", "Node.js", "Vercel", "Typescript"],
     url: "https://bit.ly/4n8OG3t",
