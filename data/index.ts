@@ -114,13 +114,12 @@ export const projects = [
     url: "https://molli-repair.vercel.app/",
   },
   {
-    title: "AxioVault Security",
-    description:
-      "Designed an advanced security dashboard for enterprise fintech with real-time audit trails and dark mode.",
-    images: ["/projects/axiovault-1.jpg"],
-    tag: "Fintech / UX",
-    stack: ["Next.js", "Tailwind", "Node.js", "Chart.js"],
-    url: "#",
+    title: "Cake Haven",
+    description: "Your local cake enthusi-ist shop!",
+    images: ["/Screenshot 2025-06-19 133941.png"],
+    tag: "E-commerce / UX",
+    stack: ["Next.js", "Tailwind", "Node.js", "Vercel", "Typescript"],
+    url: "https://bit.ly/4n8OG3t",
   },
   {
     title: "Pivot Commerce",
