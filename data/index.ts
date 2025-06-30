@@ -105,13 +105,17 @@ export const projects = [
     url: "https://galon-consulting.vercel.app/",
   },
   {
-    title: "Allset Repair",
+    title: "Reparation Road",
     description:
-      "Delivering high-quality repair services that extend the life of your appliances.",
-    images: ["/Screenshot 2025-05-22 095023.png"],
-    tag: "Rapair",
-    stack: ["Next.js", "Tailwind", "Vercel"],
-    url: "https://molli-repair.vercel.app/",
+      "Uncover your family history and explore Black heritage with Reparation Road’s research, genealogy, and cultural resources.",
+    images: [
+      "/Screenshot 2025-06-30 092759.png",
+      "/Screenshot 2025-06-30 095029.png",
+      "/Screenshot 2025-06-30 095055.png",
+    ],
+    tag: "History / UX",
+    stack: ["Next.js", "Tailwind", "Node.js", "Vercel", "Typescript"],
+    url: "reparationroad.org",
   },
   {
     title: "Cake Haven",
@@ -127,13 +131,13 @@ export const projects = [
     url: "https://bit.ly/4n8OG3t",
   },
   {
-    title: "Pivot Commerce",
+    title: "Allset Repair",
     description:
-      "Launched an e-commerce ecosystem with custom product builders and one-click checkout.",
-    images: ["/projects/pivot-1.jpg", "/projects/pivot-2.jpg"],
-    tag: "E-Commerce / Apps",
-    stack: ["Shopify", "Node.js", "Cloudinary"],
-    url: "#",
+      "Delivering high-quality repair services that extend the life of your appliances.",
+    images: ["/Screenshot 2025-05-22 095023.png"],
+    tag: "Rapair",
+    stack: ["Next.js", "Tailwind", "Vercel"],
+    url: "https://molli-repair.vercel.app/",
   },
   {
     title: "Nexify Health",
