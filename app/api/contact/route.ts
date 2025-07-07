@@ -126,8 +126,14 @@ ${message}
         );
       }
       // Fallback: show message or error as string
+      const errorMessage = 
+        typeof result.error === "object" && 
+        result.error !== null && 
+        "message" in result.error 
+          ? result.error.message 
+          : String(result.error);
       return NextResponse.json(
-        { error: result.error.message || String(result.error) },
+        { error: errorMessage },
         { status: 500 }
       );
     }

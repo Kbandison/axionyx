@@ -7,6 +7,17 @@ const nextConfig: NextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  experimental: {
+    // Disable turbopack CSS optimization
+    turbo: {
+      rules: {
+        "*.css": {
+          loaders: ["css-loader", "postcss-loader"],
+          as: "*.css",
+        },
+      },
+    },
+  },
 };
 
 export default nextConfig;

@@ -96,7 +96,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <link rel="icon" href="/favicon.ico" sizes="32x32" />
         <link rel="manifest" href="/manifest.json" />
       </head>
-      <body className="bg-base text-white ...">
+      <body className="bg-base text-white">
         <Analytics />
         <GridBackground />
         <div className="relative z-10">{children}</div>

@@ -1,8 +1,8 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { navLinks } from "@/data";
 import { Menu, X } from "lucide-react";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 
 // Animation variants
 const navContainer = {
@@ -15,12 +15,6 @@ const navItem = {
 
 export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const controls = useAnimation();
-
-  // Trigger animation on mount (client only)
-  useEffect(() => {
-    controls.start("show");
-  }, [controls]);
 
   // Smooth scroll to section
   const handleSmoothScroll = (
@@ -58,7 +52,7 @@ export default function NavBar() {
           className="hidden md:flex gap-6 lg:gap-8 items-center"
           variants={navContainer}
           initial="hidden"
-          animate={controls}
+          animate="show"
         >
           {navLinks.map((link) => (
             <motion.li key={link.name} variants={navItem}>

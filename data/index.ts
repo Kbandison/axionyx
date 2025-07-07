@@ -105,6 +105,19 @@ export const projects = [
     url: "https://galon-consulting.vercel.app/",
   },
   {
+    title: "FlexFit Gym",
+    description:
+      "Join FlexFit Gym and discover the perfect balance of expert guidance, state-of-the-art equipment, and a supportive community to help you achieve your fitness goals.",
+    images: [
+      "/Screenshot 2025-07-07 163435.png",
+      "/Screenshot 2025-07-07 163511.png",
+      "/Screenshot 2025-07-07 163456.png",
+    ],
+    tag: "Platform / Gym",
+    stack: ["Next.js", "Tailwind", "Vercel, Typescript"],
+    url: "https://flexfit-gym-eight.vercel.app/",
+  },
+  {
     title: "Reparation Road",
     description:
       "Uncover your family history and explore Black heritage with Reparation Road’s research, genealogy, and cultural resources.",
