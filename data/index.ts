@@ -152,24 +152,6 @@ export const projects = [
     stack: ["Next.js", "Tailwind", "Vercel"],
     url: "https://molli-repair.vercel.app/",
   },
-  {
-    title: "Nexify Health",
-    description:
-      "Crafted a HIPAA-compliant portal and mobile web app for telehealth at scale.",
-    images: ["/projects/nexify-1.jpg"],
-    tag: "Health / Platform",
-    stack: ["React", "AWS", "Twilio"],
-    url: "#",
-  },
-  {
-    title: "Quantum Media",
-    description:
-      "Built a blazing-fast, immersive news platform for a next-gen media startup.",
-    images: ["/projects/quantum-1.jpg", "/projects/quantum-2.jpg"],
-    tag: "Media / Publishing",
-    stack: ["Next.js", "Tailwind", "GraphQL"],
-    url: "#",
-  },
 ];
 
 // --- Add more data exports as your site grows! ---
